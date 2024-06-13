@@ -1,10 +1,14 @@
+Certainly! Below is the complete HTML code that incorporates the table, footer, and logo banner:
+
+HTML
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My Professional Table</title>
+    <title>My Professional Webpage</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -36,9 +40,43 @@
         tr:nth-child(even) {
             background-color: #f2f2f2;
         }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        .footer-content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .footer-content p {
+            margin: 0;
+        }
+        .social-links {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        .social-links li {
+            margin-right: 10px;
+        }
+        .social-links img {
+            width: 20px;
+            height: 20px;
+        }
     </style>
 </head>
 <body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Your Company Logo">
+        </div>
+        <!-- Other header content (navigation, etc.) -->
+    </header>
+
     <h1>Professional Table Example</h1>
     <table>
         <thead>
@@ -65,5 +103,19 @@
             <!-- Add more rows as needed -->
         </tbody>
     </table>
+
+    <footer>
+        <div class="footer-content">
+            <p>Contact: info@example.com</p>
+            <ul class="social-links">
+                <li><a href="#"><img src="facebook-icon.png" alt="Facebook"></a></li>
+                <li><a href="#"><img src="twitter-icon.png" alt="Twitter"></a></li>
+                <!-- Add more social icons as needed -->
+            </ul>
+        </div>
+        <p>&copy; 2024 Your Company Name. All rights reserved.</p>
+    </footer>
 </body>
 </html>
+AI-generated code. Review and use carefully. More info on FAQ.
+Feel free to replace the placeholder content (such as email addresses, social media icons, and image filenames) with your actual information. If you have any other requests or need further assistance, feel free to ask! 😊
