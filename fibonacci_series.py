@@ -1,5 +1,5 @@
 from typing import List
-def fibonacci_series(n: int) -> List[int]:
+def fibonacci_series(n):
     series = []
     if n <= 0:
         return series
