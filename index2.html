@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Website</title>
+    <style>
+        /* CSS styles for the logo */
+        .logo {
+            width: 100px;
+            height: 100px;
+            background-color: #ccc;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo"></div>
+    </header>
+
+    <main>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>John</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>Jane</td>
+                <td>30</td>
+            </tr>
+        </table>
+
+        <button onclick="showTime()">Get Current Time</button>
+
+        <script>
+            function showTime() {
+                var currentTime = new Date().toLocaleTimeString();
+                alert("Current time is: " + currentTime);
+            }
+        </script>
+    </main>
+
+    <footer>
+        <p>This is a footnote.</p>
+    </footer>
+</body>
+</html>
