@@ -1,100 +1,180 @@
-<!-- index_2025.html -->
+<!-- index_2026.html -->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
-  <title>ADS_Scientific Discussion</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f5f5f5;
-      display: flex;
-      flex-direction: column;
-      min-height: 100vh;
-    }
-    h1 {
-      text-align: center;
-      padding: 20px 0;
-      color: #333;
-    }
-    table {
-      table-layout: auto;
-      border-collapse: collapse;
-      width: 80%;
-      margin: 20px auto;
-      background-color: #fff;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    }
-    th, td {
-      border: 1px solid #ddd;
-      padding: 12px;
-      text-align: left;
-    }
-    th {
-      background-color: #0074D9;
-      color: white;
-    }
-    tr:nth-child(even) {
-      background-color: #f2f2f2;
-    }
-    .highlight {
-      color: red;
-    }
-    footer {
-      color: black;
-      text-align: center;
-      padding: 20px 0;
-      font-size: 14px;
-    }
-    main {
-      flex: 1;
-      min-height: 80vh;
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <div class="logo">
-      <img src="IFE-logo_ENGLISH_RBG-color.png" alt="" width="20%" height="auto" />
-    </div>
-  </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>ADS/DIS Scientific Discussion 2026</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f5f5f5;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+      }
+      h1 {
+        text-align: center;
+        padding: 20px 0;
+        color: #333;
+      }
+      table {
+        table-layout: auto;
+        border-collapse: collapse;
+        width: 90%;
+        margin: 20px auto;
+        background-color: #fff;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+      th, td {
+        border: 1px solid #ddd;
+        padding: 12px;
+        text-align: left;
+      }
+      th {
+        background-color: #0074D9;
+        color: white;
+      }
+      tr:nth-child(even) {
+        background-color: #f2f2f2;
+      }
+      .highlight {
+        color: red;
+        font-weight: bold;
+      }
+      .holiday-row {
+        background-color: #ffe6e6 !important;
+        color: #a00;
+        font-style: italic;
+      }
+      .summer-row {
+        background-color: #fffbe6 !important;
+        color: #856404;
+      }
+      footer {
+        color: black;
+        text-align: center;
+        padding: 20px 0;
+        font-size: 14px;
+      }
+      main {
+        flex: 1;
+        min-height: 80vh;
+      }
+      .controls {
+          text-align: center;
+          margin-bottom: 10px;
+      }
+      button {
+          padding: 10px 20px;
+          background-color: #0074D9;
+          color: white;
+          border: none;
+          cursor: pointer;
+          border-radius: 4px;
+      }
+      button:hover { background-color: #0056a3; }
+    </style>
+  </head>
 
-  <main>
-    <h1>ADS - Scientific Discussion Schedule 2025</h1>
-    <table id="sd_schedule">
-      <tr><th>Date</th><th>Name</th><th>Topic</th><th>Link</th></tr>
-      <tr><td>August 15, 2025</td><td>Chau, Hoa, and JP </td><td>WindAI Competition – Forecasting Wind Power Production</td><td><a href="#">#</a></td></tr>
-      <tr><td>August 22, 2025</td><td>Randem, Hans Olav</td><td>Video related to Neural Networks</td><td><a href="#">#</a></td></tr>
-      <tr><td>August 29, 2025</td><td>Bisio, Rossella</td><td>Model Context Protocol and agentic behaviour </td><td><a href="#">#</a></td></tr>
-      <tr><td>September 5, 2025</td><td>Tran, Chau Thi Thuy</td><td>Physics Informed Neural Network (PINN)</td><td><a href="#">#</a></td></tr>
-      <tr><td>September 12, 2025</td><td>None</td><td>None</td><td><a href="#">#</a></td></tr>
-      <tr><td>September 19, 2025</td><td>None</td><td>None</td><td><a href="#">#</a></td></tr>
-      <tr><td>September 26, 2025</td><td>Hulsund, John Einar</td><td>Amazing tips and tricks in Python</td><td><a href="#">#</a></td></tr>
-      <tr><td>October 3, 2025</td><td>HøstFeire</td><td>None</td><td><a href="#">#</a></td></tr>
-      <tr><td>October 10, 2025</td><td>Thunem, Harald P-J</td><td>Sharing about the Streamlit library</td><td><a href="#">#</a></td></tr>
-      <tr><td>October 17, 2025</td><td>Wingstedt, Emil</td><td>About "Nuclear Need in Norway" project </td><td><a href="#">#</a></td></tr>
-      <tr><td>October 24, 2025</td><td>Tran, Chau Thi Thuy</td><td>Dry-run: "Emotion Recognition Using Multi-modality based Deep Learning"</td><td><a href="#">#</a></td></tr>
-      <tr><td>October 31, 2025</td><td>Nguyen, Hoa Thi</td><td>Investigating the influence of anchor windparks representation on Transformer's attention map</td><td><a href="#">#</a></td></tr>
-      <tr><td>November 7, 2025</td><td>Cancelled</td><td>None</td><td><a href="#">#</a></td></tr>
-      <tr><td>November 14, 2025</td><td>Dr. Surender Redhu</td><td>WindSight - WindAI Competition</td><td><a href="#">#</a></td></tr>
-      <tr><td>November 21, 2025</td><td>Hoffmann, Marinus</td><td>TBD</td><td><a href="#">#</a></td></tr>
-      <tr><td>November 28, 2025</td><td>Jørgensen, Per-Arne</td><td>AI Lab: Kartlegging av behov fra ADS og Lab nettverk</td><td><a href="https://ifecloud.sharepoint.com/:p:/r/sites/GRPDSINTSYSDepartment/Shared%20Documents/General/AI%20Lab/Halden%20-%20Lab%20Network%20ADS.pptx?d=wa3995bd62e9e471aaba0a8d4f583b97f&csf=1&web=1&e=svqaJy">#</a></td></tr>
-      <tr><td>December 5, 2025</td><td>Sanjay Misra</td><td>Achieving Quality in Software Development Process</td><td><a href="#">#</a></td></tr>
-      <tr><td>December 12, 2025</td><td>Anthony Junior Bokolo</td><td>TBD</td><td><a href="#">#</a></td></tr>
-      <tr><td>December 19, 2025</td><td>TBD</td><td>TBD</td><td><a href="#">#</a></td></tr>
-      <tr><td class="highlight">December 26, 2025</td><td></td><td>None (Holiday)</td><td><a href="#">None</a></td></tr>
-    </table>
-  </main>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="IFE-logo_ENGLISH_RBG-color.png" alt="IFE Logo" width="200" height="auto" style="display:block; margin: 10px auto;" />
+      </div>
+    </header>
 
-  <footer>
-    <div class="footer-content">
-      <p>Contact: chau.tran@ife.no</p>
-    </div>
-    <p>© 2025 Institute for Energy Technology. All rights reserved.</p>
-  </footer>
-</body>
+    <main>
+      <h1>Scientific Discussion Schedule 2026</h1>
+      
+      <div class="controls">
+          <button onclick="window.print()">Print / Save as PDF</button>
+      </div>
+
+      <table id="sd_schedule">
+        <thead>
+            <tr>
+              <th>Date</th>
+              <th>Department</th>
+              <th>Name</th>
+              <th>Topic</th>
+              <th>Link</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>January 2, 2026</td><td>-</td><td>Holiday (New Year Recovery)</td><td>None</td><td>None</td></tr>
+            <tr><td>January 9, 2026</td><td>ADS</td><td>Marinus I Hoffmann</td><td>TBD</td><td><a href="#">#</a></td></tr>
+            <tr><td>January 16, 2026</td><td>DIS</td><td>Petter Kvalvik</td><td>TBD</td><td><a href="#">#</a></td></tr>
+            <tr><td>January 23, 2026</td><td>ADS</td><td>John Einar Hulsund</td><td>TBD</td><td><a href="#">#</a></td></tr>
+            <tr><td>January 30, 2026</td><td>DIS</td><td>Anthony Junior Bokolo</td><td>TBD</td><td><a href="#">#</a></td></tr>
+
+            <tr><td>February 6, 2026</td><td>ADS</td><td>Chau Thi Thuy Tran</td><td>TBD</td><td><a href="#">#</a></td></tr>
+            <tr><td>February 13, 2026</td><td>ADS</td><td>Emil Wingstedt</td><td>TBD</td><td><a href="#">#</a></td></tr>
+            <tr><td>February 20, 2026</td><td>DIS</td><td>Sanjay Misra</td><td>TBD</td><td><a href="#">#</a></td></tr>
+            <tr><td>February 27, 2026</td><td>ADS</td><td>Terje Bodal</td><td>TBD</td><td><a href="#">#</a></td></tr>
+
+            <tr><td>March 6, 2026</td><td>DIS</td><td>Rossella Bisio</td><td>TBD</td><td><a href="#">#</a></td></tr>
+            <tr><td>March 13, 2026</td><td>ADS</td><td>Hoa Thi Nguyen</td><td>TBD</td><td><a href="#">#</a></td></tr>
+            <tr><td>March 20, 2026</td><td>ADS</td><td>Kai Morgan Kjølerbakken</td><td>TBD</td><td><a href="#">#</a></td></tr>
+            <tr class="holiday-row"><td class="highlight">March 27, 2026</td><td>-</td><td>Easter Vacation (Palmehelg)</td><td>None</td><td>None</td></tr>
+
+            <tr class="holiday-row"><td class="highlight">April 3, 2026</td><td>-</td><td>Good Friday (Langfredag)</td><td>None</td><td>None</td></tr>
+            <tr><td>April 10, 2026</td><td>DIS</td><td>Per-Arne Jørgensen</td><td>TBD</td><td><a href="#">#</a></td></tr>
+            <tr><td>April 17, 2026</td><td>ADS</td><td>Hans Olav Randem</td><td>TBD</td><td><a href="#">#</a></td></tr>
+            <tr><td>April 24, 2026</td><td>DIS</td><td>Harald Neumann Thunem</td><td>TBD</td><td><a href="#">#</a></td></tr>
+
+            <tr class="holiday-row"><td class="highlight">May 1, 2026</td><td>-</td><td>Labor Day (Offentlig høytidsdag)</td><td>None</td><td>None</td></tr>
+            <tr><td>May 8, 2026</td><td>ADS</td><td>Jens-Patrick Langstrand</td><td>TBD</td><td><a href="#">#</a></td></tr>
+            <tr class="holiday-row"><td class="highlight">May 15, 2026</td><td>-</td><td>Day After Ascension (Inneklemt)</td><td>None</td><td>None</td></tr>
+            <tr><td>May 22, 2026</td><td>DIS</td><td>Petter Kvalvik</td><td>TBD</td><td><a href="#">#</a></td></tr> <tr><td>May 29, 2026</td><td>ADS</td><td>Emil Wingstedt</td><td>TBD</td><td><a href="#">#</a></td></tr>
+
+            <tr><td>June 5, 2026</td><td>DIS</td><td>Anthony Junior Bokolo</td><td>TBD</td><td><a href="#">#</a></td></tr>
+            <tr><td>June 12, 2026</td><td>ADS</td><td>Hoa Thi Nguyen</td><td>TBD</td><td><a href="#">#</a></td></tr>
+            <tr><td>June 19, 2026</td><td>DIS</td><td>Sanjay Misra</td><td>TBD</td><td><a href="#">#</a></td></tr>
+            <tr><td>June 26, 2026</td><td>ADS</td><td>Marinus I Hoffmann</td><td>TBD</td><td><a href="#">#</a></td></tr>
+
+            <tr class="summer-row"><td>July 3, 2026</td><td>-</td><td>Summer Vacation</td><td>None</td><td>None</td></tr>
+            <tr class="summer-row"><td>July 10, 2026</td><td>-</td><td>Summer Vacation</td><td>None</td><td>None</td></tr>
+            <tr class="summer-row"><td>July 17, 2026</td><td>-</td><td>Summer Vacation</td><td>None</td><td>None</td></tr>
+            <tr class="summer-row"><td>July 24, 2026</td><td>-</td><td>Summer Vacation</td><td>None</td><td>None</td></tr>
+            <tr class="summer-row"><td>July 31, 2026</td><td>-</td><td>Summer Vacation</td><td>None</td><td>None</td></tr>
+
+            <tr><td>August 7, 2026</td><td>ADS</td><td>Hans Olav Randem</td><td>TBD</td><td><a href="#">#</a></td></tr>
+            <tr><td>August 14, 2026</td><td>DIS</td><td>Rossella Bisio</td><td>TBD</td><td><a href="#">#</a></td></tr>
+            <tr><td>August 21, 2026</td><td>ADS</td><td>Terje Bodal</td><td>TBD</td><td><a href="#">#</a></td></tr>
+            <tr><td>August 28, 2026</td><td>ADS</td><td>John Einar Hulsund</td><td>TBD</td><td><a href="#">#</a></td></tr>
+
+            <tr><td>September 4, 2026</td><td>DIS</td><td>Per-Arne Jørgensen</td><td>TBD</td><td><a href="#">#</a></td></tr>
+            <tr><td>September 11, 2026</td><td>ADS</td><td>Chau Thi Thuy Tran</td><td>TBD</td><td><a href="#">#</a></td></tr>
+            <tr><td>September 18, 2026</td><td>ADS</td><td>Kai Morgan Kjølerbakken</td><td>TBD</td><td><a href="#">#</a></td></tr>
+            <tr><td>September 25, 2026</td><td>DIS</td><td>Harald Neumann Thunem</td><td>TBD</td><td><a href="#">#</a></td></tr>
+
+            <tr><td>October 2, 2026</td><td>ADS</td><td>Jens-Patrick Langstrand</td><td>TBD</td><td><a href="#">#</a></td></tr>
+            <tr><td>October 9, 2026</td><td>ADS</td><td>Terje Bodal</td><td>TBD</td><td><a href="#">#</a></td></tr> <tr><td>October 16, 2026</td><td>DIS</td><td>Anthony Junior Bokolo</td><td>TBD</td><td><a href="#">#</a></td></tr>
+            <tr><td>October 23, 2026</td><td>ADS</td><td>Hoa Thi Nguyen</td><td>TBD</td><td><a href="#">#</a></td></tr>
+            <tr><td>October 30, 2026</td><td>DIS</td><td>Petter Kvalvik</td><td>TBD</td><td><a href="#">#</a></td></tr>
+
+            <tr><td>November 6, 2026</td><td>ADS</td><td>Emil Wingstedt</td><td>TBD</td><td><a href="#">#</a></td></tr>
+            <tr><td>November 13, 2026</td><td>DIS</td><td>Rossella Bisio</td><td>TBD</td><td><a href="#">#</a></td></tr>
+            <tr><td>November 20, 2026</td><td>ADS</td><td>John Einar Hulsund</td><td>TBD</td><td><a href="#">#</a></td></tr>
+            <tr><td>November 27, 2026</td><td>ADS</td><td>Marinus I Hoffmann</td><td>TBD</td><td><a href="#">#</a></td></tr>
+
+            <tr><td>December 4, 2026</td><td>DIS</td><td>Sanjay Misra</td><td>TBD</td><td><a href="#">#</a></td></tr>
+            <tr><td>December 11, 2026</td><td>ADS</td><td>Hans Olav Randem</td><td>TBD</td><td><a href="#">#</a></td></tr>
+            <tr><td>December 18, 2026</td><td>DIS</td><td>Per-Arne Jørgensen</td><td>TBD</td><td><a href="#">#</a></td></tr>
+            <tr class="holiday-row"><td class="highlight">December 25, 2026</td><td>-</td><td>Christmas Day</td><td>None</td><td>None</td></tr>
+        </tbody>
+      </table>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <p>Contact: chau.tran@ife.no</p>
+      </div>
+      <p>© 2026 Institute for Energy Technology. All rights reserved.</p>
+    </footer>
+  </body>
 </html>
